@@ -1,301 +1,579 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>Anthony Baldoza — Full-Stack Developer</title>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="./index.css" />
-</head>
-<body>
-
-  <header class="nav" id="siteNav">
-    <div class="wrap nav-inner">
-      <a href="#top" class="brand">anthony<em>.dev</em></a>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <a href="#contact" class="status-pill"><span class="dot"></span>Open to full-stack roles</a>
-    </div>
-  </header>
-
-  <main id="top">
-    <section class="hero">
-      <div class="wrap hero-grid">
-        <div>
-          <span class="eyebrow-tag">Based in the Philippines</span>
-          <h1 class="headline">Anthony Baldoza<br /><span class="role">Full-Stack Developer</span></h1>
-          <p class="lede">I design and build complete web applications — <strong>REST APIs in Java/Spring Boot and C#/.NET</strong>, backed by relational databases, connected to interfaces people actually enjoy using.</p>
-          <div class="cta-row">
-            <a href="#work" class="btn btn-primary">View my work</a>
-            <a href="mailto:baldozaanthony2@gmail.com" class="btn btn-ghost">Get in touch</a>
-          </div>
-          <div class="quick-meta">
-            <div><strong>4</strong>shipped projects</div>
-            <div><strong>2</strong>backend stacks</div>
-            <div><strong>Full&nbsp;stack</strong>frontend to database</div>
-          </div>
-        </div>
-
-        <div class="code-panel">
-          <div class="code-topbar">
-            <span></span><span></span><span></span>
-            <span class="path">Developer.java</span>
-          </div>
-          <div class="code-body" id="typewriter"></div>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Anthony Baldoza — Full-Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header class="nav" id="siteNav">
+      <div class="wrap nav-inner">
+        <a href="#top" class="brand">anthony<em>.dev</em></a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="status-pill"
+          ><span class="dot"></span>Open to full-stack roles</a
+        >
       </div>
-    </section>
+    </header>
 
-    <section id="about">
-      <div class="wrap">
-        <div class="section-head reveal">
-          <span class="section-num">01 · About</span>
-          <h2 class="section-title">Building software end to end</h2>
-        </div>
-        <div class="about-grid reveal">
-          <div class="about-copy">
-            <p>I got into full-stack development the way most engineers do — by wanting to build something specific enough that no template fit. My most-used project is a <strong>chess tournament pairing system</strong>: a console-based Swiss pairing algorithm I rebuilt into a proper Spring Boot REST API with a live, board-themed frontend, because manually pairing players round after round doesn't scale.</p>
-            <p>That instinct carried into everything else I build: a Pokédex REST API in ASP.NET Core with real input validation, a full e-commerce and inventory system built with a team, and a handful of browser games where I learned to debug things that only break at 60 frames a second.</p>
-            <p>I like the full stack specifically — the discipline of a well-shaped database, an API contract that makes sense, and a frontend that doesn't get in the way.</p>
+    <main id="top">
+      <section class="hero">
+        <div class="wrap hero-grid">
+          <div>
+            <img
+              src="./images/Tune.png"
+              alt="Anthony Baldoza"
+              class="hero-photo"
+            />
+            <span class="eyebrow-tag">Based in the Philippines</span>
+            <h1 class="headline">
+              Anthony Baldoza<br /><span class="role"
+                >Full-Stack Developer</span
+              >
+            </h1>
+            <p class="lede">
+              I design and build complete web applications —
+              <strong>REST APIs in Java/Spring Boot and C#/.NET</strong>, backed
+              by relational databases, connected to interfaces people actually
+              enjoy using.
+            </p>
+            <div class="cta-row">
+              <a href="#work" class="btn btn-primary">View my work</a>
+              <a href="mailto:baldozaanthony2@gmail.com" class="btn btn-ghost"
+                >Get in touch</a
+              >
+            </div>
+            <div class="quick-meta">
+              <div><strong>4</strong>shipped projects</div>
+              <div><strong>2</strong>backend stacks</div>
+              <div><strong>Full&nbsp;stack</strong>frontend to database</div>
+            </div>
           </div>
-          <div class="fact-list">
-            <div class="fact-row"><span class="k">FOCUS</span><span class="v">Full-stack web applications</span></div>
-            <div class="fact-row"><span class="k">BACKEND</span><span class="v">Java / Spring Boot, C# / ASP.NET Core</span></div>
-            <div class="fact-row"><span class="k">DATABASES</span><span class="v">MySQL, PostgreSQL</span></div>
-            <div class="fact-row"><span class="k">TRAINING</span><span class="v">Full-Stack Web Development, Zuitt</span></div>
-            <div class="fact-row"><span class="k">CURRENTLY</span><span class="v">Open to full-stack roles</span></div>
+
+          <div class="code-panel">
+            <div class="code-topbar">
+              <span></span><span></span><span></span>
+              <span class="path">Developer.java</span>
+            </div>
+            <div class="code-body" id="typewriter"></div>
           </div>
         </div>
+      </section>
+      <section id="about">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <span class="section-num">01 · About</span>
+            <h2 class="section-title">Building software end to end</h2>
+          </div>
+          <div class="about-grid reveal">
+            <div class="about-copy">
+              <p>
+                I got into full-stack development the way most engineers do — by
+                wanting to build something specific enough that no template fit.
+                My most-used project is a
+                <strong>chess tournament pairing system</strong>: a
+                console-based Swiss pairing algorithm I rebuilt into a proper
+                Spring Boot REST API with a live, board-themed frontend, because
+                manually pairing players round after round doesn't scale.
+              </p>
+              <p>
+                That instinct carried into everything else I build: a Pokédex
+                REST API in ASP.NET Core with real input validation, a full
+                e-commerce and inventory system built with a team, and a handful
+                of browser games where I learned to debug things that only break
+                at 60 frames a second.
+              </p>
+              <p>
+                I like the full stack specifically — the discipline of a
+                well-shaped database, an API contract that makes sense, and a
+                frontend that doesn't get in the way.
+              </p>
+            </div>
+            <div class="fact-list">
+              <div class="fact-row">
+                <span class="k">FOCUS</span
+                ><span class="v">Full-stack web applications</span>
+              </div>
+              <div class="fact-row">
+                <span class="k">BACKEND</span
+                ><span class="v">Java / Spring Boot, C# / ASP.NET Core</span>
+              </div>
+              <div class="fact-row">
+                <span class="k">DATABASES</span
+                ><span class="v">MySQL, PostgreSQL</span>
+              </div>
+              <div class="fact-row">
+                <span class="k">TRAINING</span
+                ><span class="v">Full-Stack Web Development, Zuitt</span>
+              </div>
+              <div class="fact-row">
+                <span class="k">CURRENTLY</span
+                ><span class="v">Open to full-stack roles</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <span class="section-num">02 · Skills</span>
+            <h2 class="section-title">The stack, layer by layer</h2>
+            <p class="section-sub">
+              Frontend, backend, and data — the three layers I work across on
+              every project, from the first schema to the last pixel.
+            </p>
+          </div>
+
+          <div class="stack reveal">
+            <div class="stack-layer">
+              <div class="layer-label">
+                <span class="tag">Layer 01</span
+                ><span class="name">Frontend</span>
+              </div>
+              <div class="layer-items">
+                <span class="chip">HTML5</span><span class="chip">CSS3</span
+                ><span class="chip">JavaScript (ES6+)</span>
+                <span class="chip">React</span
+                ><span class="chip">Bootstrap</span
+                ><span class="chip">Three.js</span>
+                <span class="chip">Responsive Design</span>
+              </div>
+            </div>
+            <div class="stack-layer">
+              <div class="layer-label">
+                <span class="tag">Layer 02</span
+                ><span class="name">Backend &amp; APIs</span>
+              </div>
+              <div class="layer-items">
+                <span class="chip">Java</span
+                ><span class="chip">Spring Boot</span
+                ><span class="chip">C#</span>
+                <span class="chip">ASP.NET Core</span
+                ><span class="chip">REST API Design</span
+                ><span class="chip">Input Validation</span>
+              </div>
+            </div>
+            <div class="stack-layer">
+              <div class="layer-label">
+                <span class="tag">Layer 03</span
+                ><span class="name">Data &amp; Tooling</span>
+              </div>
+              <div class="layer-items">
+                <span class="chip">MySQL</span
+                ><span class="chip">PostgreSQL</span
+                ><span class="chip">Git &amp; GitHub</span>
+                <span class="chip">Maven</span
+                ><span class="chip">API Testing</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <span class="section-num">03 · Work</span>
+            <h2 class="section-title">Selected projects</h2>
+            <p class="section-sub">
+              Four projects, four different problems — a tournament algorithm, a
+              validated data API, a team e-commerce build, and a set of browser
+              games.
+            </p>
+          </div>
+
+          <div class="proj-grid reveal">
+            <div class="proj-card">
+              <div class="proj-top">
+                <h3 class="proj-name">CCS Pairing System</h3>
+                <span class="lang-tag"
+                  ><span class="lang-dot" style="background: #b07219"></span
+                  >Java</span
+                >
+              </div>
+              <p class="proj-desc">
+                Full-stack chess tournament management app. Converts a
+                console-based Swiss pairing algorithm into a Spring Boot REST
+                API, paired with a live, board-themed frontend for running real
+                tournaments.
+              </p>
+              <div class="proj-tags">
+                <span>Java</span><span>Spring Boot</span><span>MySQL</span>
+              </div>
+              <a
+                class="proj-link"
+                href="https://github.com/AnthonyBaldoza/Chess-Pairing-System"
+                target="_blank"
+                rel="noopener"
+                >View repository</a
+              >
+            </div>
+
+            <div class="proj-card">
+              <div class="proj-top">
+                <h3 class="proj-name">Pokédex API</h3>
+                <span class="lang-tag"
+                  ><span class="lang-dot" style="background: #178600"></span
+                  >C#</span
+                >
+              </div>
+              <p class="proj-desc">
+                Gen 1 Pokédex REST API built with ASP.NET Core and PostgreSQL,
+                with proper input validation and seeded data — built to behave
+                like a real production data service, not a demo.
+              </p>
+              <div class="proj-tags">
+                <span>C#</span><span>ASP.NET Core</span><span>PostgreSQL</span>
+              </div>
+              <a
+                class="proj-link"
+                href="https://github.com/AnthonyBaldoza/Pokedex-CSharp-Inte"
+                target="_blank"
+                rel="noopener"
+                >View repository</a
+              >
+            </div>
+
+            <div class="proj-card">
+              <div class="proj-top">
+                <h3 class="proj-name">Norita Clothing PH</h3>
+                <span class="lang-tag"
+                  ><span class="lang-dot" style="background: #4fd1c5"></span
+                  >Full-Stack</span
+                >
+              </div>
+              <p class="proj-desc">
+                Group capstone project — a full-stack e-commerce and inventory
+                management system built for a real clothing business, covering
+                catalog, stock, and order flows end to end.
+              </p>
+              <div class="proj-tags">
+                <span>Full-Stack</span><span>E-Commerce</span
+                ><span>Team Project</span>
+              </div>
+              <a
+                class="proj-link"
+                href="https://anthonybaldoza.github.io/AuringPh_E-Commnerce_Web_Application/"
+                target="_blank"
+                rel="noopener"
+                >View project</a
+              >
+            </div>
+
+            <div class="proj-card">
+              <div class="proj-top">
+                <h3 class="proj-name">Astrocade Games</h3>
+                <span class="lang-tag"
+                  ><span class="lang-dot" style="background: #f1e05a"></span
+                  >JavaScript</span
+                >
+              </div>
+              <p class="proj-desc">
+                A collection of browser-based games I built and debugged,
+                including a top-down zombie survival game, a 3D racing game, and
+                a spinning-top battle game.
+              </p>
+              <div class="proj-tags">
+                <span>JavaScript</span><span>Three.js</span
+                ><span>Game Dev</span>
+              </div>
+              <a
+                class="proj-link"
+                href="https://www.astrocade.com/games/last-standing/01M21K0K5S217BDG8MHZAGVA47?sharedByCreator=SolCrusader&surface=web&sharePlatform=copylink&shareId=536ebca3-ad78-4694-a9bc-f4ef87ff6adb&shareOrigin=analytics"
+                target="_blank"
+                rel="noopener"
+                >Play the games</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <span class="section-num">04 · Experience</span>
+            <h2 class="section-title">How I got here</h2>
+            <p class="section-sub">
+              Edit this timeline with your actual roles and dates — shown here
+              are the milestones visible in your projects so far.
+            </p>
+          </div>
+
+          <div class="timeline reveal">
+            <div class="tl-item">
+              <span class="tl-period">Capstone</span>
+              <h3 class="tl-role">Full-Stack Developer, Capstone Team</h3>
+              <p class="tl-org">
+                Norita Clothing PH — E-Commerce &amp; Inventory System
+              </p>
+              <p class="tl-desc">
+                Built and shipped a full-stack e-commerce platform as part of a
+                team, handling catalog, inventory, and order management from
+                database to UI.
+              </p>
+            </div>
+            <div class="tl-item">
+              <span class="tl-period">Independent</span>
+              <h3 class="tl-role">REST API Development</h3>
+              <p class="tl-org">CCS Pairing System &amp; Pokédex API</p>
+              <p class="tl-desc">
+                Designed and built two production-style REST APIs solo — one in
+                Java/Spring Boot, one in C#/ASP.NET Core — each backed by its
+                own relational database.
+              </p>
+            </div>
+            <div class="tl-item">
+              <span class="tl-period">Training</span>
+              <h3 class="tl-role">Full-Stack Web Development</h3>
+              <p class="tl-org">Zuitt Coding Bootcamp</p>
+              <p class="tl-desc">
+                Intensive full-stack training covering frontend fundamentals,
+                backend APIs, and relational databases, culminating in a team
+                capstone build.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="wrap">
+          <div class="contact-panel reveal">
+            <h2>Let's build something real</h2>
+            <p>
+              Open to full-stack roles and freelance work — if you have a
+              project that needs a frontend, an API, and a database that
+              actually talk to each other, I'd like to hear about it.
+            </p>
+            <a href="mailto:baldozaanthony2@gmail.com" class="btn btn-primary"
+              >baldozaanthony2@gmail.com</a
+            >
+            <div class="socials">
+              <a
+                class="social-link"
+                href="https://github.com/AnthonyBaldoza"
+                target="_blank"
+                rel="noopener"
+                aria-label="GitHub"
+                >GH</a
+              >
+              <a
+                class="social-link"
+                href="https://www.facebook.com/anthony.baldoza.606295"
+                target="_blank"
+                rel="noopener"
+                aria-label="Facebook"
+                >FB</a
+              >
+              <a
+                class="social-link"
+                href="https://twitter.com/zuittco"
+                target="_blank"
+                rel="noopener"
+                aria-label="X / Twitter"
+                >X</a
+              >
+              <a
+                class="social-link"
+                href="https://www.instagram.com/anthnybldza/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Instagram"
+                >IG</a
+              >
+              <a
+                class="social-link"
+                href="https://www.tiktok.com/@zuittco"
+                target="_blank"
+                rel="noopener"
+                aria-label="TikTok"
+                >TT</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap footer-inner">
+        <p>© <span id="yr"></span> Anthony Baldoza</p>
+        <p>Built with Java, C#, and a lot of debugging</p>
       </div>
-    </section>
+    </footer>
 
-    <section id="skills">
-      <div class="wrap">
-        <div class="section-head reveal">
-          <span class="section-num">02 · Skills</span>
-          <h2 class="section-title">The stack, layer by layer</h2>
-          <p class="section-sub">Frontend, backend, and data — the three layers I work across on every project, from the first schema to the last pixel.</p>
-        </div>
+    <script>
+      document.getElementById("yr").textContent = new Date().getFullYear();
 
-        <div class="stack reveal">
-          <div class="stack-layer">
-            <div class="layer-label"><span class="tag">Layer 01</span><span class="name">Frontend</span></div>
-            <div class="layer-items">
-              <span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">JavaScript (ES6+)</span>
-              <span class="chip">React</span><span class="chip">Bootstrap</span><span class="chip">Three.js</span>
-              <span class="chip">Responsive Design</span>
-            </div>
-          </div>
-          <div class="stack-layer">
-            <div class="layer-label"><span class="tag">Layer 02</span><span class="name">Backend &amp; APIs</span></div>
-            <div class="layer-items">
-              <span class="chip">Java</span><span class="chip">Spring Boot</span><span class="chip">C#</span>
-              <span class="chip">ASP.NET Core</span><span class="chip">REST API Design</span><span class="chip">Input Validation</span>
-            </div>
-          </div>
-          <div class="stack-layer">
-            <div class="layer-label"><span class="tag">Layer 03</span><span class="name">Data &amp; Tooling</span></div>
-            <div class="layer-items">
-              <span class="chip">MySQL</span><span class="chip">PostgreSQL</span><span class="chip">Git &amp; GitHub</span>
-              <span class="chip">Maven</span><span class="chip">API Testing</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      // Nav background on scroll
+      var nav = document.getElementById("siteNav");
+      var onScroll = function () {
+        if (window.scrollY > 12) nav.classList.add("scrolled");
+        else nav.classList.remove("scrolled");
+      };
+      document.addEventListener("scroll", onScroll, { passive: true });
+      onScroll();
 
-    <section id="work">
-      <div class="wrap">
-        <div class="section-head reveal">
-          <span class="section-num">03 · Work</span>
-          <h2 class="section-title">Selected projects</h2>
-          <p class="section-sub">Four projects, four different problems — a tournament algorithm, a validated data API, a team e-commerce build, and a set of browser games.</p>
-        </div>
+      // Reveal on scroll
+      var reduceMotion = window.matchMedia(
+        "(prefers-reduced-motion: reduce)",
+      ).matches;
+      if (!reduceMotion && "IntersectionObserver" in window) {
+        var io = new IntersectionObserver(
+          function (entries) {
+            entries.forEach(function (e) {
+              if (e.isIntersecting) {
+                e.target.classList.add("in");
+                io.unobserve(e.target);
+              }
+            });
+          },
+          { threshold: 0.15 },
+        );
+        document.querySelectorAll(".reveal").forEach(function (el) {
+          io.observe(el);
+        });
+      } else {
+        document.querySelectorAll(".reveal").forEach(function (el) {
+          el.classList.add("in");
+        });
+      }
 
-        <div class="proj-grid reveal">
-          <div class="proj-card">
-            <div class="proj-top">
-              <h3 class="proj-name">CCS Pairing System</h3>
-              <span class="lang-tag"><span class="lang-dot" style="background:#b07219"></span>Java</span>
-            </div>
-            <p class="proj-desc">Full-stack chess tournament management app. Converts a console-based Swiss pairing algorithm into a Spring Boot REST API, paired with a live, board-themed frontend for running real tournaments.</p>
-            <div class="proj-tags"><span>Java</span><span>Spring Boot</span><span>MySQL</span></div>
-            <a class="proj-link" href="https://github.com/AnthonyBaldoza/Chess-Pairing-System" target="_blank" rel="noopener">View repository</a>
-          </div>
-
-          <div class="proj-card">
-            <div class="proj-top">
-              <h3 class="proj-name">Pokédex API</h3>
-              <span class="lang-tag"><span class="lang-dot" style="background:#178600"></span>C#</span>
-            </div>
-            <p class="proj-desc">Gen 1 Pokédex REST API built with ASP.NET Core and PostgreSQL, with proper input validation and seeded data — built to behave like a real production data service, not a demo.</p>
-            <div class="proj-tags"><span>C#</span><span>ASP.NET Core</span><span>PostgreSQL</span></div>
-            <a class="proj-link" href="https://github.com/AnthonyBaldoza/Pokedex-CSharp-Inte" target="_blank" rel="noopener">View repository</a>
-          </div>
-
-          <div class="proj-card">
-            <div class="proj-top">
-              <h3 class="proj-name">Norita Clothing PH</h3>
-              <span class="lang-tag"><span class="lang-dot" style="background:#4fd1c5"></span>Full-Stack</span>
-            </div>
-            <p class="proj-desc">Group capstone project — a full-stack e-commerce and inventory management system built for a real clothing business, covering catalog, stock, and order flows end to end.</p>
-            <div class="proj-tags"><span>Full-Stack</span><span>E-Commerce</span><span>Team Project</span></div>
-            <a class="proj-link" href="https://anthonybaldoza.github.io/AuringPh_E-Commnerce_Web_Application/" target="_blank" rel="noopener">View project</a>
-          </div>
-
-          <div class="proj-card">
-            <div class="proj-top">
-              <h3 class="proj-name">Astrocade Games</h3>
-              <span class="lang-tag"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript</span>
-            </div>
-            <p class="proj-desc">A collection of browser-based games I built and debugged, including a top-down zombie survival game, a 3D racing game, and a spinning-top battle game.</p>
-            <div class="proj-tags"><span>JavaScript</span><span>Three.js</span><span>Game Dev</span></div>
-            <a class="proj-link" href="https://www.astrocade.com/games/last-standing/01M21K0K5S217BDG8MHZAGVA47?sharedByCreator=SolCrusader&surface=web&sharePlatform=copylink&shareId=536ebca3-ad78-4694-a9bc-f4ef87ff6adb&shareOrigin=analytics" target="_blank" rel="noopener">Play the games</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="experience">
-      <div class="wrap">
-        <div class="section-head reveal">
-          <span class="section-num">04 · Experience</span>
-          <h2 class="section-title">How I got here</h2>
-          <p class="section-sub">Edit this timeline with your actual roles and dates — shown here are the milestones visible in your projects so far.</p>
-        </div>
-
-        <div class="timeline reveal">
-          <div class="tl-item">
-            <span class="tl-period">Capstone</span>
-            <h3 class="tl-role">Full-Stack Developer, Capstone Team</h3>
-            <p class="tl-org">Norita Clothing PH — E-Commerce &amp; Inventory System</p>
-            <p class="tl-desc">Built and shipped a full-stack e-commerce platform as part of a team, handling catalog, inventory, and order management from database to UI.</p>
-          </div>
-          <div class="tl-item">
-            <span class="tl-period">Independent</span>
-            <h3 class="tl-role">REST API Development</h3>
-            <p class="tl-org">CCS Pairing System &amp; Pokédex API</p>
-            <p class="tl-desc">Designed and built two production-style REST APIs solo — one in Java/Spring Boot, one in C#/ASP.NET Core — each backed by its own relational database.</p>
-          </div>
-          <div class="tl-item">
-            <span class="tl-period">Training</span>
-            <h3 class="tl-role">Full-Stack Web Development</h3>
-            <p class="tl-org">Zuitt Coding Bootcamp</p>
-            <p class="tl-desc">Intensive full-stack training covering frontend fundamentals, backend APIs, and relational databases, culminating in a team capstone build.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <div class="wrap">
-        <div class="contact-panel reveal">
-          <h2>Let's build something real</h2>
-          <p>Open to full-stack roles and freelance work — if you have a project that needs a frontend, an API, and a database that actually talk to each other, I'd like to hear about it.</p>
-          <a href="mailto:baldozaanthony2@gmail.com" class="btn btn-primary">baldozaanthony2@gmail.com</a>
-          <div class="socials">
-            <a class="social-link" href="https://github.com/AnthonyBaldoza" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
-            <a class="social-link" href="https://www.facebook.com/anthony.baldoza.606295" target="_blank" rel="noopener" aria-label="Facebook">FB</a>
-            <a class="social-link" href="https://twitter.com/zuittco" target="_blank" rel="noopener" aria-label="X / Twitter">X</a>
-            <a class="social-link" href="https://www.instagram.com/anthnybldza/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
-            <a class="social-link" href="https://www.tiktok.com/@zuittco" target="_blank" rel="noopener" aria-label="TikTok">TT</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="wrap footer-inner">
-      <p>© <span id="yr"></span> Anthony Baldoza</p>
-      <p>Built with Java, C#, and a lot of debugging</p>
-    </div>
-  </footer>
-
-<script>
-  document.getElementById('yr').textContent = new Date().getFullYear();
-
-  // Nav background on scroll
-  var nav = document.getElementById('siteNav');
-  var onScroll = function(){
-    if (window.scrollY > 12) nav.classList.add('scrolled');
-    else nav.classList.remove('scrolled');
-  };
-  document.addEventListener('scroll', onScroll, { passive:true });
-  onScroll();
-
-  // Reveal on scroll
-  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (!reduceMotion && 'IntersectionObserver' in window){
-    var io = new IntersectionObserver(function(entries){
-      entries.forEach(function(e){
-        if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
+      // Hero typewriter — one orchestrated moment
+      var lines = [
+        { t: "kw", s: "public class " },
+        { t: "type", s: "Developer" },
+        { t: "plain", s: " {\n\n" },
+        { t: "plain", s: "  " },
+        { t: "type", s: "String" },
+        { t: "plain", s: " " },
+        { t: "prop", s: "name" },
+        { t: "plain", s: "   = " },
+        { t: "str", s: '"Anthony Baldoza"' },
+        { t: "plain", s: ";\n" },
+        { t: "plain", s: "  " },
+        { t: "type", s: "String" },
+        { t: "plain", s: " " },
+        { t: "prop", s: "role" },
+        { t: "plain", s: "   = " },
+        { t: "str", s: '"Full-Stack Developer"' },
+        { t: "plain", s: ";\n" },
+        { t: "plain", s: "  " },
+        { t: "type", s: "String" },
+        { t: "plain", s: "[] " },
+        { t: "prop", s: "stack" },
+        { t: "plain", s: "  = {\n" },
+        { t: "plain", s: "    " },
+        { t: "str", s: '"Java"' },
+        { t: "plain", s: ", " },
+        { t: "str", s: '"Spring Boot"' },
+        { t: "plain", s: ",\n" },
+        { t: "plain", s: "    " },
+        { t: "str", s: '"C#"' },
+        { t: "plain", s: ", " },
+        { t: "str", s: '".NET"' },
+        { t: "plain", s: ",\n" },
+        { t: "plain", s: "    " },
+        { t: "str", s: '"React"' },
+        { t: "plain", s: ", " },
+        { t: "str", s: '"PostgreSQL"' },
+        { t: "plain", s: ",\n" },
+        { t: "plain", s: "    " },
+        { t: "str", s: '"MySQL"' },
+        { t: "plain", s: "\n" },
+        { t: "plain", s: "  };\n" },
+        { t: "plain", s: "  " },
+        { t: "type", s: "boolean" },
+        { t: "plain", s: " " },
+        { t: "prop", s: "available" },
+        { t: "plain", s: " = " },
+        { t: "kw", s: "true" },
+        { t: "plain", s: ";\n\n" },
+        { t: "com", s: "  // let's build something\n" },
+        { t: "plain", s: "}" },
+      ];
+      var cls = {
+        kw: "tok-kw",
+        type: "tok-type",
+        str: "tok-str",
+        com: "tok-com",
+        prop: "tok-prop",
+        plain: "",
+      };
+      var full = "";
+      lines.forEach(function (part) {
+        full +=
+          '<span class="' +
+          (cls[part.t] || "") +
+          '">' +
+          part.s.replace(/&/g, "&amp;").replace(/</g, "&lt;") +
+          "</span>";
       });
-    }, { threshold: 0.15 });
-    document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
-  } else {
-    document.querySelectorAll('.reveal').forEach(function(el){ el.classList.add('in'); });
-  }
 
-  // Hero typewriter — one orchestrated moment
-  var lines = [
-    { t:'kw', s:'public class ' }, { t:'type', s:'Developer' }, { t:'plain', s:' {\n\n' },
-    { t:'plain', s:'  ' }, { t:'type', s:'String' }, { t:'plain', s:' ' }, { t:'prop', s:'name' }, { t:'plain', s:'   = ' }, { t:'str', s:'"Anthony Baldoza"' }, { t:'plain', s:';\n' },
-    { t:'plain', s:'  ' }, { t:'type', s:'String' }, { t:'plain', s:' ' }, { t:'prop', s:'role' }, { t:'plain', s:'   = ' }, { t:'str', s:'"Full-Stack Developer"' }, { t:'plain', s:';\n' },
-    { t:'plain', s:'  ' }, { t:'type', s:'String' }, { t:'plain', s:'[] ' }, { t:'prop', s:'stack' }, { t:'plain', s:'  = {\n' },
-    { t:'plain', s:'    ' }, { t:'str', s:'"Java"' }, { t:'plain', s:', ' }, { t:'str', s:'"Spring Boot"' }, { t:'plain', s:',\n' },
-    { t:'plain', s:'    ' }, { t:'str', s:'"C#"' }, { t:'plain', s:', ' }, { t:'str', s:'".NET"' }, { t:'plain', s:',\n' },
-    { t:'plain', s:'    ' }, { t:'str', s:'"React"' }, { t:'plain', s:', ' }, { t:'str', s:'"PostgreSQL"' }, { t:'plain', s:',\n' },
-    { t:'plain', s:'    ' }, { t:'str', s:'"MySQL"' }, { t:'plain', s:'\n' },
-    { t:'plain', s:'  };\n' },
-    { t:'plain', s:'  ' }, { t:'type', s:'boolean' }, { t:'plain', s:' ' }, { t:'prop', s:'available' }, { t:'plain', s:' = ' }, { t:'kw', s:'true' }, { t:'plain', s:';\n\n' },
-    { t:'com', s:'  // let\'s build something\n' },
-    { t:'plain', s:'}' }
-  ];
-  var cls = { kw:'tok-kw', type:'tok-type', str:'tok-str', com:'tok-com', prop:'tok-prop', plain:'' };
-  var full = '';
-  lines.forEach(function(part){
-    full += '<span class="' + (cls[part.t]||'') + '">' + part.s.replace(/&/g,'&amp;').replace(/</g,'&lt;') + '</span>';
-  });
+      var target = document.getElementById("typewriter");
+      var flat = lines.map(function (p) {
+        return { cls: cls[p.t] || "", text: p.s };
+      });
+      var totalChars = flat.reduce(function (n, p) {
+        return n + p.text.length;
+      }, 0);
+      var i = 0,
+        charIndex = 0,
+        partIndex = 0;
 
-  var target = document.getElementById('typewriter');
-  var flat = lines.map(function(p){ return { cls: cls[p.t]||'', text:p.s }; });
-  var totalChars = flat.reduce(function(n,p){ return n + p.text.length; }, 0);
-  var i = 0, charIndex = 0, partIndex = 0;
+      function renderPartial() {
+        var html = "";
+        var remaining = charIndex;
+        for (var k = 0; k < flat.length; k++) {
+          if (remaining <= 0) break;
+          var part = flat[k];
+          var take = Math.min(part.text.length, remaining);
+          var chunk = part.text
+            .slice(0, take)
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;");
+          html += part.cls
+            ? '<span class="' + part.cls + '">' + chunk + "</span>"
+            : chunk;
+          remaining -= take;
+        }
+        target.innerHTML = html + '<span class="caret"></span>';
+      }
 
-  function renderPartial(){
-    var html = '';
-    var remaining = charIndex;
-    for (var k=0; k<flat.length; k++){
-      if (remaining <= 0) break;
-      var part = flat[k];
-      var take = Math.min(part.text.length, remaining);
-      var chunk = part.text.slice(0, take).replace(/&/g,'&amp;').replace(/</g,'&lt;');
-      html += part.cls ? ('<span class="'+part.cls+'">'+chunk+'</span>') : chunk;
-      remaining -= take;
-    }
-    target.innerHTML = html + '<span class="caret"></span>';
-  }
-
-  function type(){
-    if (reduceMotion){ target.innerHTML = full; return; }
-    if (charIndex < totalChars){
-      charIndex += 1;
-      renderPartial();
-      var speed = 10 + Math.random()*16;
-      setTimeout(type, speed);
-    } else {
-      target.innerHTML = full + '<span class="caret"></span>';
-    }
-  }
-  setTimeout(type, 350);
-</script>
-</body>
+      function type() {
+        if (reduceMotion) {
+          target.innerHTML = full;
+          return;
+        }
+        if (charIndex < totalChars) {
+          charIndex += 1;
+          renderPartial();
+          var speed = 10 + Math.random() * 16;
+          setTimeout(type, speed);
+        } else {
+          target.innerHTML = full + '<span class="caret"></span>';
+        }
+      }
+      setTimeout(type, 350);
+    </script>
+  </body>
 </html>
